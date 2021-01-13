@@ -9,9 +9,9 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
+import { rootReducer } from './reducers/rootReducer';
 
 
-/////////// import reportWebVitals from './reportWebVitals';
 
 
 
@@ -33,4 +33,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
-//////////// reportWebVitals();
+
